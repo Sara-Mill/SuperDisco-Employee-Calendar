@@ -6,4 +6,4 @@ The calendar displays today's date, and is color coded based on current time, an
 
 Local storage is used to save user's input.
 
-![Screenshot of calendar with past time in grey, current time in red, and future time in green](https://github.com/Sara-Mill/SuperDisco-Employee-Calendar/blob/main/assets/Screenshot%20Schedule%20Calendar.png)
+![Screenshot of calendar with past time in grey, current time in red, and future time in green](assets/Screenshot%20Schedule%20Calendar.png)
