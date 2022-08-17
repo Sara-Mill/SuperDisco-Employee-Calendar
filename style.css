@@ -8,9 +8,10 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #ed0606;
   border-left: 1px solid black;
   padding: 10px;
+  width:50%;
 }
 
 .jumbotron {
@@ -33,11 +34,13 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid rgb(237, 14, 14);;
+  width:100%;
+  border-top: 1px solid white;
+  margin: 0;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
   border-top: 1px dashed #000000;
 }
