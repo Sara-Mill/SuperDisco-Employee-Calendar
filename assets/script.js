@@ -21,10 +21,12 @@ $(document).ready(function () {
 
 //make the function for color change
 function timeTracker () {
-  var timeNow = moment().format('h');
+  var timeNow = moment().format('HH');
   //gets the array
   $(".time-block").each(function () {
     var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+    console.log(timeNow)
+    console.log(blockTime)
     //sets the color based on past, present, or future, using HTML compared to moment
     if (blockTime < timeNow) {
       $(this).removeClass("future");
@@ -34,7 +36,7 @@ function timeTracker () {
       $(this).removeClass("present");
       $(this).removeClass("past");
       $(this).addClass("future");
-    } else {
+    } else if (blockTime = timeNow) {
       $(this).removeClass("past");
       $(this).removeClass("future");
       $(this).addClass("present");
